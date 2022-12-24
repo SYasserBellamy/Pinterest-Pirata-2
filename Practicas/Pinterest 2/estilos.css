@@ -1,0 +1,66 @@
+#navbar-pinterest{
+    width: 1024px;
+    height: 60px;
+    position: sticky;
+    top:0;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+    #pinterest-icon{
+    width: 40px;    
+    }
+
+    #navbar-izq{
+        display: flex;
+        align-items: center;
+        float: left;
+    }
+
+    #navbar-der{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    background-color: aliceblue;
+    margin-top: 12px;
+    }
+
+
+
+#content{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img{
+
+    width: 220px;
+    border-radius: 25px;
+    padding: 5px;
+    
+}
+
+.card-image{
+    
+}
+
+@media screen and  (max-width:1023px){
+    #navbar-pinterest{
+        width: 100%;
+        align-items: center;
+    }
+
+    #content {
+        width: 100%;
+        align-items: center;
+    }
+}
